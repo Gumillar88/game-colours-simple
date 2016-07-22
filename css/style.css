@@ -1,0 +1,361 @@
+body {
+    background-color:#FFFFFF;
+}
+
+#rand{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+/*-------------------------------*/
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+/* -------------*/
+#header {
+    transition: all 1500ms;
+}
+
+.containers{
+    border: 0px solid rgba(0,0,0,.5);
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.btn-play {
+    background-color:#f9f9f9;
+    -webkit-border-top-left-radius:0px;
+    -moz-border-radius-topleft:0px;
+    border-top-left-radius:0px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    -webkit-border-bottom-right-radius:0px;
+    -moz-border-radius-bottomright:0px;
+    border-bottom-right-radius:0px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+    text-indent:-4px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#E74C3C;
+    font-family:Comic Sans MS;
+    font-size:14px;
+    font-weight:bold;
+    font-style:normal;
+    
+    line-height:59px;
+    
+    text-decoration:none;
+    text-align:center;
+
+    width:130px;
+    height:60px;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 5s;
+}
+.btn-play:hover {
+    background-color:#E74C3C;
+    color: #ECF0F1;
+   /* width:260px;
+    height:120px;*/
+
+}
+
+.btn-play:active {
+    position:relative;
+    top:1px;
+}
+
+/*containers play and box*/
+
+.swatch {
+  width: 180px;
+  height: 180px;
+  border-radius: 0px;
+  display: block;
+  text-indent: -1000px;
+  float: left;
+  overflow: hidden;
+  background: #000;
+  margin: 0 1em 1em 0;
+}
+
+.swatch:nth-child(9n) {
+  margin-right: 0
+}
+
+.head-content{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.container-img {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.lead-box {
+    width: 100%;
+    height: 100px;
+    background: #000;
+}
+
+.boxes {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+
+.boxes .box-item {
+    float: left;
+
+    /*this is for animation*/
+    width: 150px;
+    height: 150px;
+    background: #000;
+
+    /* this is animation css3 */ 
+    /*-webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;*/
+
+}
+
+.boxes .box-item:hover {
+    background-color: #FFCCCC;
+    /*this is for animation*/
+    width: 150px;
+    height: 150px;
+
+    /* this is animation css3 */
+    /*-webkit-transform: rotate(383deg);
+    transform: rotate(383deg);*/
+}
+
+#param{
+    margin:10px 180px;
+    width:300px;
+    height:100px;
+}
+
+.containers-play{
+    border: 0px solid rgba(0,0,0,.5);
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 50px auto;
+    
+}
+
+.box-play{   
+    border:0px solid #6A080C;
+
+}
+
+.play-pizza{
+    width: 130px;
+    height:130px;
+    background-color: red;
+    border-radius: 80px;
+    
+}
+
+.countdown{
+    color: #E33225;
+    font-size: 20px;
+    padding: 10px;
+}
+/* this is button start*/
+.btn-start {
+    background-color:#f9f9f9;
+    -webkit-border-top-left-radius:0px;
+    -moz-border-radius-topleft:0px;
+    border-top-left-radius:0px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    -webkit-border-bottom-right-radius:0px;
+    -moz-border-radius-bottomright:0px;
+    border-bottom-right-radius:0px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+    text-indent:-4px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#E74C3C;
+    font-family:Comic Sans MS;
+    font-size:14px;
+    font-weight:bold;
+    font-style:normal;
+    
+    line-height:59px;
+    
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+
+    width:130px;
+    height:60px;
+
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 5s;
+
+}
+.btn-start:hover {
+    background-color:#E74C3C;
+    color: #ECF0F1;
+}.btn-start:active {
+    position:relative;
+    top:1px;
+}
+/* ---------------- */
+.span-colours {
+    font-size: 20px;
+    color: #fff;
+    
+}
+
+.p {
+    font-size: 25px;
+    color: #E33225;
+    font-family:Arial Black;
+    font-weight:bold;
+    font-style:normal;
+}
+
+.p-instruction {
+    color:#3498DB;
+    text-align: center;
+}
+
+.hidden-btn{
+    display: none;
+}
+
+
+.game-over{
+    color: #E74C3C;
+    text-align: center;
+    font-size: 40px;
+}
+
+.score-start{
+    color:#3498DB;
+    margin:10px 130px 0px 0px;
+}
+
+#current-score-value{
+    font-size:20px;
+    color:#E33225;
+    font-weight:bold;
+}
+
+.time{
+    color:#3498DB;
+}
+
+.score-end{
+    font-size: 25px;
+    color: #3498DB;
+}
+
+#scorEnd{
+    margin: auto 125px;
+    font-size: 80px;
+}
+
+
+/*this is media query*/
+
+@media Screen and (min-width: 442px) and (max-width: 480px){
+    .containers-play{
+        width: 100%;
+        top:0px;
+        left: 0%;
+        margin-left: 0px;
+    }
+    .head-content{
+        padding: 10px;
+        text-align: center;
+    }
+
+    .container-img{
+        width: 100%;
+    }
+
+    .boxes .box-item{
+        width: 200px;
+        height:200px;
+    }
+}
+
+@media Screen and (min-width: 352px) and (max-width: 441px){
+    .containers-play{
+        width: 100%;
+        top:0;
+        left:0;
+        margin-left: 0px;
+    }
+
+    .box-play{
+        border: 0px solid #6A080C;
+    }
+
+    .head-content{
+        text-align: center;
+        margin: auto;
+        padding: 11px;
+    }
+
+
+}
+
+@media Screen and (min-width: 241px) and (max-width: 351px){
+    .containers-play{
+        width:100%;
+
+    }
+
+    .container-img{
+        width: 100%;
+    }
+
+    .boxes .box-item{
+        width: 120px;
+        height:120px;
+    }
+
+}
+
+@media Screen and (min-width: 100px) and (max-width: 240px){
+    .containers-play{
+        width: 100%;
+        top:0;
+        left:0;
+        margin-left: 0px;
+    }
+
+    .container-img{
+        width:100%;
+    }
+    .boxes{
+        margin: auto;
+    }
+
+    .boxes .box-item{
+        width: 100%;
+        height:100px;
+    }
+
+/*----------*/
